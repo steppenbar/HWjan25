@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <div id="question-container" class="hide"</div>
+            <div id="question">question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            <div class="controls">
+                <button id="start-btn" class="start-btn">Start</button>
+                <button id="next-btn" class="next-btn">Next</button>
+            </div>
+    </div>
+
+
+
+
+
+    <script>
+    const myQuestions = [
+    {
+      question: "Who is the strongest?",
+      answers: {
+        1: "Superman",
+        2: "The Terminator",
+        3: "Waluigi, obviously",
+        4: "All of the above",
+        5: "None of the above",
+      },
+      correctAnswer: "3"
+    },    {
+      question: "What is the best site ever created?",
+      answers: {
+        1: "SitePoint",
+        2: "Simple Steps Code",
+        3: "Trick question; they're both the best",
+        4: "All of the above",
+        5: "None of the above",
+      },
+      correctAnswer: "3"
+    },
+    {
+      question: "Where is Waldo really?",
+      answers: {
+        1: "Antarctica",
+        2: "Exploring the Pacific Ocean",
+        3: "Minding his own business, so stop asking",
+        4: "All of the above",
+        5: "None of the above",
+      },
+      correctAnswer: "3"
+    }
+  ];
+    </script>
+    
+</body>
+</html>
